@@ -1,77 +1,92 @@
-📈 Cryptocurrency Price Prediction using Machine Learning
+# 📈 Cryptocurrency Price Prediction using Machine Learning
 
-This project demonstrates how Machine Learning techniques can be applied to predict cryptocurrency prices using historical market data. The notebook includes data preprocessing, visualization, feature engineering, model training, hyperparameter tuning, and evaluation of multiple ML models to determine the best-performing algorithm for crypto-price forecasting.
+This project demonstrates how Machine Learning techniques can be applied to **predict cryptocurrency prices** using historical market data. The notebook includes **data preprocessing, visualization, feature engineering, model training, hyperparameter tuning, and evaluation of multiple ML models** to determine the best-performing algorithm for crypto-price forecasting.
 
-The project is ideal for students, beginners, and ML enthusiasts exploring time-series forecasting, regression models, and real-world financial datasets.
+The project is ideal for students, beginners, and ML enthusiasts exploring **time-series forecasting**, **regression models**, and **real-world financial datasets**.
 
-🔥 Features
+---
 
-✔ Data Preprocessing
+## 🔥 Features
 
-Handles missing values
+### ✔ Data Preprocessing
 
-Converts date formats
+* Handles missing values
+* Converts date formats
+* Scales numerical features
+* Splits data into train/test sets
 
-Scales numerical features
+### ✔ Feature Engineering
 
-Splits data into train/test sets
+* Lag features
+* Moving averages
+* Rolling statistics
+* Trend extraction
 
-✔ Feature Engineering
+### ✔ Implemented Machine Learning Models
 
-Lag features
+* Linear Regression
+* Lasso & Ridge Regression
+* Random Forest Regressor
+* Decision Tree Regressor
+* XGBoost Regressor (optional)
+* Support Vector Regressor
+* KNN Regressor
 
-Moving averages
+### ✔ Evaluation Metrics
 
-Rolling statistics
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+* Comparative model performance table
 
-Trend extraction
+### ✔ Visualizations
 
-✔ Implemented Machine Learning Models
+* Actual vs Predicted price graph
+* Feature importance plots
+* Correlation heatmap
 
-Linear Regression
+---
 
-Lasso & Ridge Regression
+## 📊 Tech Stack
 
-Random Forest Regressor
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib / Seaborn**
+* **Scikit-Learn**
+* (Optional) **XGBoost**
+---
 
-Decision Tree Regressor
+## 🚀 How to Run
 
-XGBoost Regressor (optional)
+1. Load the dataset inside the notebook
+2. Preprocess the data
+3. Run each ML model cell
+4. Compare evaluation metrics
+5. Choose the best performing model
 
-Support Vector Regressor
+---
 
-KNN Regressor
+## 🧠 Results & Insights
 
-✔ Evaluation Metrics
+* The model comparison reveals which algorithms work best for **financial time-series data**.
+* Ensemble models such as **Random Forest** or **XGBoost** generally provide more stable predictions.
+* Trend-based features significantly improve accuracy.
 
-Mean Absolute Error (MAE)
+---
 
-Mean Squared Error (MSE)
+## 🏆 Future Enhancements
 
-Root Mean Squared Error (RMSE)
+* LSTM (Deep Learning) for sequence modeling
+* Real-time prediction API using FastAPI / Flask
+* Deployment on Streamlit or HuggingFace Spaces
+* Integration with live Binance/Kraken API
 
-R² Score
+---
+## ⭐ Contribute
 
-Comparative model performance table
+Pull requests are welcome!
+If you like the project, don't forget to **star ⭐ the repository**.
 
-✔ Visualizations
-
-Actual vs Predicted price graph
-
-Feature importance plots
-
-Correlation heatmap
-
-📊 Tech Stack
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib / Seaborn
-
-Scikit-Learn
-
-(Optional) XGBoost
+---
